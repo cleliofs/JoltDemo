@@ -1,0 +1,6 @@
+{
+  "string": "the QuIcK brOwn fox",
+  "zeroIndex" : 0,
+  "threeIndex" : 3,
+  "trimMe" : "  tuna "
+}

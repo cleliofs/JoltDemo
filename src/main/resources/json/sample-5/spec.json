@@ -1,0 +1,32 @@
+[ // json root is a list, not object
+  {
+    "operation": "remove", // remove operation
+    "spec": { // spec is the place where we give arguments for the operation
+      "movies": {
+        "*": { // for every object
+          "rotten": "" // empty value means delete rotten
+        }
+      }
+    }
+  },
+  {
+    "operation": "shift", // shift operation
+    "spec": {
+      "movies": {
+        "*": { // again, for every object in movies
+          // put the imbd object in the "&1.imdb" path
+          // &1 means "one object above"
+          "imdb": "&1.imdb" // Example: "Goodfellas.imdb"
+        }
+      }
+    }
+  },
+  {
+    "operation": "default", // default operation
+    "spec": {
+      "*": { // No need for movies anymore
+        "available": true // Add the "available: true" object
+      }
+    }
+  }
+]

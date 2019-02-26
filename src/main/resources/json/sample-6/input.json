@@ -1,0 +1,9 @@
+{
+  "epochTime": 1551187655000,
+  "clientInfo": {
+    "clientIp": "111.111.111.111",
+    "userAgent": {
+      "type": "COMPUTER"
+    }
+  }
+}

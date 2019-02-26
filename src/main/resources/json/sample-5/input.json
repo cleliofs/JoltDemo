@@ -1,0 +1,16 @@
+{
+  "movies": {
+    "The Godfather": {
+      "imdb": 92,
+      "rotten": 98
+    },
+    "Goodfellas": {
+      "imdb": 87,
+      "rotten": 96
+    },
+    "Apocalypse Now": {
+      "imdb": 85,
+      "rotten": 96
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "splitMe" : "split me",
+
+  "string": "the QuIcK brOwn fox",
+
+  "intputMapShouldNotSplit" : { "a" : "b" }
+}

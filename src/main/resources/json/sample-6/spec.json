@@ -1,0 +1,23 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "epochTime": "new_custom_time",
+      "clientInfo": {
+        "clientIp": "client_ip",
+        "userAgent": {
+          "type": "user_agent"
+        }
+      }
+    }
+  },
+  {
+    "operation" : "com.jolt.sample.transform.JoltTimeTransform"
+  },
+  {
+    "operation" : "com.jolt.sample.transform.JoltUserAgentTransform"
+  },
+  {
+    "operation": "com.jolt.sample.transform.JoltClientIpTransform"
+  }
+]

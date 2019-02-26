@@ -1,0 +1,15 @@
+[
+  {
+    "operation": "modify-default-beta",
+    "spec": {
+      "splitMe" : "=split(' ',@(1,splitMe))",
+      "split": {
+        "single": "=split(',', @(2,string))",
+        "multiple": "=split(' ', @(2,string))",
+        "regex": "=split('[Oo]', @(2,string))",
+        "regex2": "=split('\\s+', @(2,string))"
+      },
+      "intputMapShouldNotSplit" : "=split('=', @(1,intputMapShouldNotSplit))"
+    }
+  }
+]
